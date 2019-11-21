@@ -1,0 +1,39 @@
+{
+  "name": "todays-movies-notifier",
+  "version": "1.0.0",
+  "description": "A notifications service for the Today's Movies application  https://github.com/MlkMahmud/todays-movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/",
+    "dev": "babel-node --require ./node_modules/dotenv/config src/app",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MlkMahmud/todays-movies-notifier.git"
+  },
+  "keywords": [],
+  "author": "Malik Mahmud <almalikmahmud@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MlkMahmud/todays-movies-notifier/issues"
+  },
+  "homepage": "https://github.com/MlkMahmud/todays-movies-notifier#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.7.2",
+    "firebase-admin": "^8.8.0",
+    "web-push": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
