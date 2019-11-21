@@ -1,2 +1,9 @@
 # todays-movies-notifier
-A notifier service for https://github.com/todays-movies
+An automated push notification service for [Today's Movies](https://github.com/MlkMahmud/todays-movies) application. 
+
+## How It Works
+
+
+## Dependencies
+- [Firebase-admin]()
+- [web-push]()
