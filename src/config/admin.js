@@ -6,7 +6,7 @@ admin.initializeApp({
     clientEmail: process.env.CLIENT_EMAIL,
     privateKey: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'),
   }),
-  databaseURL: process.env.DB_URI,
+  databaseURL: process.env.DB_URL,
 });
 
 export default admin;
